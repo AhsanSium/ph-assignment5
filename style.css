@@ -1,0 +1,70 @@
+h1{
+    font-size: 2em;
+    color: coral;
+    text-align: center;
+}
+p{
+    font-size: 1.25em;
+    color: magenta;
+}
+.search-section{
+    margin-top: 8%;
+    display: grid;
+    justify-content: center;
+    padding: 1%;
+}
+.search-section input{
+    border-radius: 10%;
+}
+.search-section button{
+    border-radius: 10%;
+    background-color: lawngreen;
+}
+
+#meals {
+    margin-top: 3%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2%;   
+    grid-row-gap: 2%;   
+}
+#meal-div{
+    border-radius: 4%;
+    box-shadow: 1px 2px 2px 1px #d4d4ff;
+}
+#meal-div img{
+    width:100%;
+    height: auto;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+#meal-div h3{
+    padding: 5%;
+    font-size: 2em;
+    color: coral;
+    text-align: center;
+}
+#meal-details{
+    margin-top: 10%;
+    display: grid;
+    justify-content: center;
+}
+.clicked-item{
+    border-radius: 4%;
+    box-shadow: 1px 2px 2px 1px #d4d4ff;
+    width: 80%;
+    height:min-content;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+}
+.clicked-item img{
+    width:100%;
+    height: auto;
+    border-radius: 4%;
+}
+.clicked-item h3{
+    font-size: 2em;
+    color: coral;
+}
